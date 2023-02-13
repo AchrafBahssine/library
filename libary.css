@@ -43,7 +43,7 @@ nav{
 nav ul li{
     list-style-type: none;
     display:inline-block;
-    padding: 30px ;
+    padding: 30px;
     
 
 }
@@ -51,6 +51,7 @@ nav ul li a{
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bold;
+    
 } 
 nav ul li a:hover{
     color: rgb(32, 90, 73);
@@ -258,13 +259,12 @@ hr{
     transform: scale(1.03);
     background: #358a5f;
 }
-.stars_5 img,span:hover{
-    color: azure;
 
-
-
-
+.container_5stars  :hover{
+    color: rgb(255, 255, 255);
+    
 }
+
 
 .container_5stars{
     margin: 155px;
@@ -356,8 +356,62 @@ hr{
     background-color: #358a5f;
     
 }
+   /* footer */
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    margin: 155px;  
+    background-color: #7e807f; 
+    border-radius: 12px; 
+    padding: 50px;
+   }
+   
+.row ul li {
+    list-style-type: none;
+    
+    
+}
+.row ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.row h4{
+    color: rgb(208, 219, 210);
+    padding-bottom: 20px;
+}
+.row ul li a:hover{
+    
+    color: #ffffffa6;
+    transition: .3s;
+    
+
+    
+}
 
 
+.container:hover{
+    background-color: #358a5f;
+    
+    
+}
+.row a i{
+    letter-spacing: 10px;
+}
+/* Copyright*/
+
+.container-copy{
+    display: flex;
+    margin: 155px;
+    
+
+    justify-content: space-between;
+    
+    
+
+}
 
 
     
